@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Catálogo de productos de StickerArt - Stickers, vinilos y personalizaciones">
+    <title>Catálogo | StickerArt</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/catalogo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/img/logo.png" alt="StickerArt" width="150">
+                </a>
+            </div>
+        </div>
+    
+        <nav class="nav">
+            <ul class="nav-menu">
+                <li><a href="/index.html" class="nav-link"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="/page/catalogo.html" class="nav-link active"><i class="fas fa-tags"></i> Catálogo</a></li>
+                <li><a href="contactanos.html" class="nav-link"><i class="fas fa-envelope"></i> Contáctanos</a></li>
+                <li><a href="personaliza.html" class="nav-link"><i class="fas fa-paint-brush"></i> Personaliza</a></li>
+            </ul>
+            <div class="burger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="catalogo-main">
+        <!-- Hero del catálogo -->
+        <section class="catalogo-hero">
+            <div class="container">
+                <h1>Nuestro Catálogo</h1>
+                <p>Descubre nuestra amplia variedad de productos personalizables</p>
+            </div>
+        </section>
+
+        <!-- Filtros de búsqueda -->
+        <section class="filtros">
+            <div class="container">
+                <div class="filtros-container">
+                    <div class="search-box">
+                        <input type="text" placeholder="Buscar productos...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="filter-group">
+                        <label for="categoria">Categoría:</label>
+                        <select id="categoria">
+                            <option value="todas">Todas</option>
+                            <option value="stickers">Stickers</option>
+                            <option value="vinilos">Vinilos</option>
+                            <option value="tazas">Tazas</option>
+                            <option value="ropa">Ropa</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="precio">Precio:</label>
+                        <select id="precio">
+                            <option value="todos">Todos</option>
+                            <option value="0-10000">$0 - $10.000</option>
+                            <option value="10000-30000">$10.000 - $30.000</option>
+                            <option value="30000+">$30.000+</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Productos -->
+        <section class="productos">
+            <div class="container">
+                <div class="productos-grid">
+                    <!-- Producto 1 -->
+                    <div class="producto-card">
+                        <div class="producto-img">
+                            <img src="img/sticker1.jpg" alt="Sticker personalizado">
+                            <span class="badge nuevo">Nuevo</span>
+                        </div>
+                        <div class="producto-info">
+                            <h3>Sticker Personalizado</h3>
+                            <p class="descripcion">Crea tu diseño único en vinilo de alta calidad</p>
+                            <div class="precio">$5.000 - $15.000</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(24)</span>
+                            </div>
+                            <a href="producto-detalle.html" class="btn">Ver detalles</a>
+                        </div>
+                    </div>
+
+                    <!-- Producto 2 -->
+                    <div class="producto-card">
+                        <div class="producto-img">
+                            <img src="img/vinilo1.jpg" alt="Vinilo decorativo">
+                            <span class="badge oferta">15% OFF</span>
+                        </div>
+                        <div class="producto-info">
+                            <h3>Vinilo Decorativo</h3>
+                            <p class="descripcion">Para paredes, ventanas y superficies lisas</p>
+                            <div class="precio">
+                                <span class="precio-antiguo">$35.000</span>
+                                $29.750
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(18)</span>
+                            </div>
+                            <a href="producto-detalle.html" class="btn">Ver detalles</a>
+                        </div>
+                    </div>
+
+                    <!-- Producto 3 -->
+                    <div class="producto-card">
+                        <div class="producto-img">
+                            <img src="img/taza1.jpg" alt="Taza personalizada">
+                        </div>
+                        <div class="producto-info">
+                            <h3>Taza Personalizada</h3>
+                            <p class="descripcion">Lleva tu diseño favorito en tu bebida</p>
+                            <div class="precio">$15.000 - $25.000</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(42)</span>
+                            </div>
+                            <a href="producto-detalle.html" class="btn">Ver detalles</a>
+                        </div>
+                    </div>
+
+                    <!-- Producto 4 -->
+                    <div class="producto-card">
+                        <div class="producto-img">
+                            <img src="img/camisa1.jpg" alt="Camiseta personalizada">
+                        </div>
+                        <div class="producto-info">
+                            <h3>Camiseta Personalizada</h3>
+                            <p class="descripcion">Estampa tu diseño en algodón 100%</p>
+                            <div class="precio">$25.000 - $45.000</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(36)</span>
+                            </div>
+                            <a href="producto-detalle.html" class="btn">Ver detalles</a>
+                        </div>
+                    </div>
+
+                    <!-- Producto 5 -->
+                    <div class="producto-card">
+                        <div class="producto-img">
+                            <img src="img/laptop1.jpg" alt="Sticker para laptop">
+                            <span class="badge nuevo">Nuevo</span>
+                        </div>
+                        <div class="producto-info">
+                            <h3>Sticker para Laptop</h3>
+                            <p class="descripcion">Decora tu computador con estilo</p>
+                            <div class="precio">$8.000 - $12.000</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(15)</span>
+                            </div>
+                            <a href="producto-detalle.html" class="btn">Ver detalles</a>
+                        </div>
+                    </div>
+
+                    <!-- Producto 6 -->
+                    <div class="producto-card">
+                        <div class="producto-img">
+                            <img src="img/auto1.jpg" alt="Vinilo para auto">
+                        </div>
+                        <div class="producto-info">
+                            <h3>Vinilo para Auto</h3>
+                            <p class="descripcion">Resistente a la intemperie y lavados</p>
+                            <div class="precio">$20.000 - $50.000</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <span>(12)</span>
+                            </div>
+                            <a href="producto-detalle.html" class="btn">Ver detalles</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paginación -->
+                <div class="paginacion">
+                    <a href="#" class="pagina-btn"><i class="fas fa-chevron-left"></i></a>
+                    <a href="#" class="pagina-btn active">1</a>
+                    <a href="#" class="pagina-btn">2</a>
+                    <a href="#" class="pagina-btn">3</a>
+                    <a href="#" class="pagina-btn"><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner promocional -->
+        <section class="banner-promo">
+            <div class="container">
+                <div class="banner-content">
+                    <h2>¿No encuentras lo que buscas?</h2>
+                    <p>Personaliza totalmente tu producto con tu propio diseño</p>
+                    <a href="personaliza.html" class="btn btn-blanco">Personalizar ahora</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>StickerArt</h3>
+                    <p>Tu tienda de confianza para personalización y calcomanías de calidad.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle Falsa 123, Ciudad</p>
+                    <p><i class="fas fa-phone"></i> +57 123 456 7890</p>
+                    <p><i class="fas fa-envelope"></i> info@stickerart.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Redes sociales</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 StickerArt. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
